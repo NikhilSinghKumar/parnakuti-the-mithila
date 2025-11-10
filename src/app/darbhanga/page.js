@@ -126,7 +126,7 @@ export default function DarbhangaPage() {
           {/* Feature icons */}
           {features.map((item, i) => (
             <div key={i} className="relative flex flex-col items-center z-10">
-              <div className="relative flex items-center justify-center w-14 h-14 bg-[#032828] border-[2.5px] border-white rounded-full transition-all hover:bg-[#FAB000] hover:border-[#FAB000]">
+              <div className="relative flex items-center justify-center w-14 h-14 bg-[#032828] border-[2.5px] border-white rounded-full transition-all hover:bg-[#FAB000] hover:border-[#FAB000] cursor-pointer">
                 {/* left line */}
                 {i >= 0 && (
                   <div className="absolute left-[-16px] top-1/2 w-[15px] h-[3px] bg-[#5ab6b8] hover:bg-[#FAB000] -translate-y-1/2" />
