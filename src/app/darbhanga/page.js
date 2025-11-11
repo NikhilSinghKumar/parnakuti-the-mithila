@@ -1,6 +1,7 @@
 "use client";
 import { Phone, Hotel, Coffee, ParkingSquare, Clock } from "lucide-react";
 import { Poppins, Playfair_Display, Barlow_Condensed } from "next/font/google";
+import Footer from "@/components/Footer";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -146,6 +147,7 @@ export default function DarbhangaPage() {
           ))}
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
